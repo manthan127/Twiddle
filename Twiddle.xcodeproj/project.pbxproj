@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F408CBC8280D3CD70082AE19 /* GameScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408CBC7280D3CD70082AE19 /* GameScreenVM.swift */; };
 		F4CDD32F27E31E0800AF0B00 /* TwiddleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDD32E27E31E0800AF0B00 /* TwiddleApp.swift */; };
-		F4CDD33127E31E0800AF0B00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDD33027E31E0800AF0B00 /* ContentView.swift */; };
 		F4CDD33327E31E1100AF0B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CDD33227E31E1100AF0B00 /* Assets.xcassets */; };
 		F4CDD33627E31E1100AF0B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CDD33527E31E1100AF0B00 /* Preview Assets.xcassets */; };
+		F4CDD34027E31E8300AF0B00 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDD33F27E31E8300AF0B00 /* HomeScreenView.swift */; };
+		F4CDD34427E31FAF00AF0B00 /* GameScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDD34327E31FAF00AF0B00 /* GameScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F408CBC7280D3CD70082AE19 /* GameScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenVM.swift; sourceTree = "<group>"; };
 		F4CDD32B27E31E0800AF0B00 /* Twiddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twiddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CDD32E27E31E0800AF0B00 /* TwiddleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiddleApp.swift; sourceTree = "<group>"; };
-		F4CDD33027E31E0800AF0B00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4CDD33227E31E1100AF0B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4CDD33527E31E1100AF0B00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4CDD33727E31E1100AF0B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CDD33F27E31E8300AF0B00 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		F4CDD34327E31FAF00AF0B00 /* GameScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				F4CDD32E27E31E0800AF0B00 /* TwiddleApp.swift */,
-				F4CDD33027E31E0800AF0B00 /* ContentView.swift */,
+				F4CDD33F27E31E8300AF0B00 /* HomeScreenView.swift */,
+				F4CDD34327E31FAF00AF0B00 /* GameScreenView.swift */,
+				F408CBC7280D3CD70082AE19 /* GameScreenVM.swift */,
 				F4CDD33227E31E1100AF0B00 /* Assets.xcassets */,
 				F4CDD33727E31E1100AF0B00 /* Info.plist */,
 				F4CDD33427E31E1100AF0B00 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CDD33127E31E0800AF0B00 /* ContentView.swift in Sources */,
 				F4CDD32F27E31E0800AF0B00 /* TwiddleApp.swift in Sources */,
+				F4CDD34027E31E8300AF0B00 /* HomeScreenView.swift in Sources */,
+				F408CBC8280D3CD70082AE19 /* GameScreenVM.swift in Sources */,
+				F4CDD34427E31FAF00AF0B00 /* GameScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

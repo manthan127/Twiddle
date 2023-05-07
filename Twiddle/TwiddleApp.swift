@@ -11,7 +11,9 @@ import SwiftUI
 struct TwiddleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {            
+                HomeScreenView()
+            }
         }
     }
 }
